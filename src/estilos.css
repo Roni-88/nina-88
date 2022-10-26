@@ -1,0 +1,85 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(151, 194, 238);
+    padding: 5%;
+    border: 20px ridge rgb(17, 17, 193);
+    font-size: 20px;
+}
+
+.principal { 
+    height: 350px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: blue;
+}
+
+img {  
+    min-height: 300px;
+    border: 2px solid blue;
+}
+
+.menu {
+    gap: 50px;
+}
+
+button {
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(42, 42, 206);
+    box-shadow: 5px 5px 8px rgb(73, 70, 70);
+    cursor: pointer;
+    margin-right: 20px;
+    color: rgb(161, 196, 231);
+    font-size: 20px;
+}
+
+.conteudo {
+    background-color: rgb(151, 194, 238);
+    padding: 5%;
+    border: 20px ridge rgb(17, 17, 193);
+    font-size: 20px;
+}
+
+.conteudo h2 {
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.conteudo-historia {
+    margin-bottom: 40px;
+}
+
+.conteudo-fotos {
+    margin-bottom: 40px;
+}
+
+.conteudo-arquivos {
+    margin-bottom: 40px;
+}
+
+.rodape{
+    background-color: rgb(151, 194, 238);
+    padding: 5%;
+    border: 20px ridge rgb(17, 17, 193);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape img {
+    border-radius: 50%;
+}
+
+.contato p {
+    margin-top: 50px;
+    color: rgb(242, 90, 120);
+    font-size: 20px;
+}
