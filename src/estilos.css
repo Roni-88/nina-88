@@ -40,6 +40,11 @@ button {
     font-size: 20px;
 }
 
+button:hover {
+    height: 52px;
+    box-shadow: 0 3px 25px rgb(231, 229, 103);
+}
+
 .conteudo {
     background-color: rgb(151, 194, 238);
     padding: 5%;
@@ -79,7 +84,12 @@ button {
 }
 
 .contato p {
-    margin-top: 50px;
-    color: rgb(242, 90, 120);
+    margin-top: 50px;  
     font-size: 20px;
+}
+
+.contato p:hover {
+    box-shadow: 0 3px 25px rgb(231, 229, 103);
+    width: fit-content;
+    border-radius: 8px;
 }
